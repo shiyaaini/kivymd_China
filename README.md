@@ -115,39 +115,8 @@ toolchain pip install --no-deps kivymd
 - 文档：https://kivymd.readthedocs.io
 - 含 KivyMD 组件示例的 Wiki：https://github.com/kivymd/KivyMD/wiki
 
-### 演示
 
-<p align="center">
-  <a href="https://www.youtube.com/watch?v=4er9b6TH_TA">
-    <img 
-        width="600" 
-        src="https://github.com/HeaTTheatR/KivyMD-data/raw/master/gallery/preview-kitchen-sink.png" 
-        title="点击观看 KivyMD 组件库演示应用"
-    >
-  </a>
-</p>
 
-[Kitchen sink](https://github.com/kivymd/KitchenSink) 应用演示了每一个 KivyMD 组件。你可以在应用代码中查看每个组件的用法。
-
-### Flutter 与 KivyMD 的对比
-
-| Sky View 概念 | 健康食品配送 |
-:-------------------------:|:-------------------------:
-<a href="https://www.youtube.com/watch?v=xvi2D1c4mfQ"><img src="https://github.com/HeaTTheatR/KivyMD-data/raw/master/gallery/preview-youtube-1.png" title="点击在 YouTube 上观看"></a>  |  <a href="https://www.youtube.com/watch?v=P-ylDDm4TJM"><img src="https://github.com/HeaTTheatR/KivyMD-data/raw/master/gallery/preview-youtube-2.png" title="点击在 YouTube 上观看"></a>
-| Asics 鞋概念 | Facebook 桌面端重设 |
-<a href="https://www.youtube.com/watch?v=ehuXPgun0k0"><img src="https://github.com/HeaTTheatR/KivyMD-data/raw/master/gallery/preview-youtue.png" title="点击在 YouTube 上观看"></a>  |  <a href="https://www.youtube.com/watch?v=ZNBQib6Hk4s"><img src="https://github.com/HeaTTheatR/KivyMD-data/raw/master/gallery/preview-youtue-3.png" title="点击在 YouTube 上观看"></a>
-
-## 使用 MVC 与热重载（Hot Reload）
-
-<p align="center">
-  <a href="https://www.youtube.com/watch?v=JLBrgoSSeTU&t">
-    <img 
-        img width="600" 
-        src="https://github.com/HeaTTheatR/KivyMD-data/raw/master/gallery/hot-reload-preview-youtube.png" 
-        title='点击在 YouTube 上观看'
-    >
-  </a>
-</p>
 
 ## 支持
 
@@ -161,19 +130,8 @@ toolchain pip install --no-deps kivymd
 
 #### [在 PyCharm/Intellij IDEA 中为 Kivy/KivyMD .kv 文件提供语法高亮与自动补全](https://github.com/noembryo/KV4Jetbrains)
 
-## 宣传视频
 
-<p align="center">
-  <a href="https://www.youtube.com/watch?v=crt8wA4Q5eU">
-    <img 
-        img width="600" 
-        src="https://github.com/HeaTTheatR/KivyMD-data/raw/master/gallery/prevideo.png" 
-        title='点击在 YouTube 上观看'
-    >
-  </a>
-</p>
 
-<a id="Contributing"></a>
 ## 贡献
 
 我们始终欢迎你的[缺陷报告](https://github.com/kivymd/KivyMD/issues/new?template=bug_report.md)、[功能请求](https://github.com/kivymd/KivyMD/issues/new?template=feature_request.md)和 [Pull Request](https://github.com/kivymd/KivyMD/pulls)！
@@ -197,75 +155,4 @@ pytest kivymd/tests --timeout=600 --cov=kivymd --cov-report=term
 
 pre-commit 将使用 Black 格式化修改过的文件，并用 isort 排序导入。
 
-## 姊妹项目
 
-<img align="left" width="128" src="https://github.com/kivymd/internal/raw/main/logo/kivymd_extensions.png"/>
-
-## KivyMD 扩展
-
-KivyMD 库的补充扩展。
-
-https://github.com/kivymd-extensions
-
-<img align="left" width="128" src="https://github.com/kivymd/internal/raw/main/logo/kivymdbuilder.png"/>
-
-## KivyMDBuilder
-
-可视化构建应用。
-
-https://github.com/kivymd/KivyMDBuilder
-
-
-## 许可证
-
-- KivyMD 按照 [MIT 许可证](https://github.com/kivymd/KivyMD/blob/master/LICENSE) 发布，与 [Kivy](https://github.com/kivy/kivy/blob/master/LICENSE) 相同。
-- [Roboto 字体](https://fonts.google.com/specimen/Roboto) 按照 [Apache License 2.0](https://www.apache.org/licenses/LICENSE-2.0) 授权与分发。
-- 由 [Material Design Icons](https://materialdesignicons.com/) 社区维护的 [Iconic 字体](https://github.com/Templarian/MaterialDesign-Webfont) 遵循 [SIL Open Font License 1.1](http://scripts.sil.org/cms/scripts/page.php?item_id=OFL_web)。
-
-## 贡献者
-
-### KivyMD 团队
-
-他们为改进 KivyMD 付出了大量时间：
-
-- Yuri Ivanov [@HeaTTheatR](https://github.com/HeaTTheatR) - 核心开发者
-- Artem Bulgakov [@ArtemSBulgakov](https://github.com/ArtemSBulgakov) - 技术管理员、贡献者
-- Andrés Rodríguez [@mixedCase](https://github.com/mixedCase) - KivyMD 项目第一作者、贡献者
-
-### 代码贡献者
-
-感谢所有为本项目做出贡献的人。
-*[如何贡献](#Contributing)*
-
-<a href="https://github.com/kivymd/KivyMD/graphs/contributors">
-    <img src="https://opencollective.com/kivymd/contributors.svg?width=890&button=false"/>
-</a>
-
-### 资金支持者
-
-[成为资金支持者](https://opencollective.com/kivymd#section-contribute)，帮助我们维系社区发展。
-
-#### 金牌赞助商
-
-[成为金牌赞助商](https://opencollective.com/kivymd/contribute/gold-sponsor-16160)，你的 Logo 将出现在我们的 Readme 中，并附带你网站的链接。
-
-| Peter Šurda | Route4Me Route Planner |
-:-------------------------:|:-------------------------:
-<a href="https://opencollective.com/peter-surda"><img src="https://github.com/HeaTTheatR/KivyMD-data/raw/master/gallery/gold-sponsor-1-1.png" title="Peter Šurda"></a> |  <a href="https://opencollective.com/route4me"><img src="https://github.com/HeaTTheatR/KivyMD-data/raw/master/gallery/gold-sponsor-1-2.png" title="Route4Me Route Planner"></a>
-<!-- FIXME: sponsors are not displayed -->
-
-<a href="https://route4me.com" target="_blank" style="display: inline-block; text-align: center;">
-    <div style="text-align: center;">
-        <img width="280" src="https://github.com/HeaTTheatR/KivyMD-data/raw/master/gallery/route4me.png" alt="Best Route Planner"><br>
-        Best Route Planner - Route Optimization Software
-    </div>
-    
-</a>
-
-#### 支持者
-
-[成为支持者](https://opencollective.com/kivymd/contribute/backer-16159)，一起推动项目发展。
-
-<a href="https://opencollective.com/kivymd#backers" target="_blank">
-    <img src="https://opencollective.com/kivymd/backers.svg?width=890">
-</a>
