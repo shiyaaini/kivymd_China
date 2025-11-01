@@ -51,7 +51,7 @@ pip install kivymd==2.0.0
 如果你希望从 [master](https://github.com/kivymd/KivyMD/tree/master/) 分支安装开发版，请指定 zip 压缩包链接：
 
 ```bash
-pip install https://github.com/kivymd/KivyMD/archive/master.zip
+pip install https://github.com/shiyaaini/kivymd_China/archive/master.zip
 ```
 
 **提示**：将 `master.zip` 替换为 `<commit hash>.zip`（例如 `51b8ef0.zip`）即可安装指定提交的版本。
@@ -59,7 +59,7 @@ pip install https://github.com/kivymd/KivyMD/archive/master.zip
 你也可以从源码手动安装。克隆项目并执行 pip：
 
 ```bash
-git clone https://github.com/kivymd/KivyMD.git --depth 1
+git clone https://github.com/shiyaaini/kivymd_China.git --depth 1
 cd KivyMD
 pip install .
 ```
@@ -71,7 +71,7 @@ pip install .
 ```ini
 requirements = python3,
     kivy,
-    https://github.com/kivymd/KivyMD/archive/master.zip,
+    https://github.com/shiyaaini/kivymd_China/archive/master.zip,
     materialyoucolor,
     exceptiongroup,
     asyncgui,
